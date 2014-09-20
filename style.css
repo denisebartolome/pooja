@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	//border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+ border: 1px dotted black;
+}
+
+body{
+ margin: 0 auto;
+ width: 70%;
+ border: 0px solid #808080;
+ font-family: Verdana, Calibri;
+ background: url(halftone.png);
+
+}
+
+
+
+div{  
+display: inline-block;
+vertical-align: top;
+}
+
+
+#banner_container{
+  position: relative;
+
+}
+
+#banner_img{
+ width: 100%;
+}
+
+
+#title{
+    z-index:100;
+    position:absolute; 
+    top: 10px;
+ 
+}
+
+#menu_line{
+ width: 100%;
+ background-color: #20ffd0;
+ text-align: center;
+ position: relative;
+ top: -5px;
+ height: 60px;
+ padding: 10px 0px 0px;
+}
+
+
+
+.main_menu li{
+display: inline;
+list-style-type: none;
+margin:0;
+padding:0;
+font-size: 150%;
+padding: 4%;
+}
+
+a{
+ text-decoration: none;
+}
+
+/* can probably get rid of this...used to be hr
+.divider{
+ display: block;
+ width: 80%;
+ background-color: #20ffd0;
+ height: 20px;
+ text-align: center;
+ position: relative;
+}
+*/
+
+#work{
+ margin-top: 100px;
+ display: inline-block;
+ font-size: 130%;
+ height: 100%;
+}
+
+/*for the videos*/
+
+iframe{
+ height: 250px;
+ width: 250px;
+}
+
+
+figure{
+ font-size: 70%;
+ text-align: center;
+}
+
+#story{
+ margin-top: 100px;
+ width: 100%;
+ font-size:150%;
+}
+
+div div p{
+padding: 40px;
+}
+
+.hr{
+ width: 100%;
+ background-color: #000000;
+ height: 30px;
+ border:0;
+ position: relative;
+ margin:10px auto;
+}
+
+.circle_right{
+ position: relative;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ background-color: #20ffd0;
+ text-align: center;
+ top: -50px;
+ right: 20px;
+ float: right;
+ border: 10px solid #000000;
+ 
+}
+
+
+.circle_left{
+ position: relative;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ background-color: #20ffd0;
+ text-align: center;
+ top: -50px;
+ left: 20px;
+ float: left;
+ border: 10px solid #000000;
+ 
+}
+
+.section_head{
+padding: 33px 10px;
+font-size: 120%;
+}
+
+/*
+hr {
+ width: 100%;
+ background-color: #000000;
+ height: 30px;
+ border:0;
+ position: relative;
+ margin:50px auto;
+}
+
+hr:after {
+ content:'';
+ position: absolute;
+ right: 10px;
+ top:-40px;
+ width:100px;
+ height:100px;
+ border-radius: 50%;
+ background-color: #20ffd0;
+ text-align: right;
+ border: 10px solid #000000;
+}
+
+.left_circle {
+ content:'';
+ position: absolute;
+ left: 10px;
+ top:-40px;
+ width:100px;
+ height:100px;
+ border-radius: 50%;
+ background-color: #20ffd0;
+ text-align: left;
+ border: 10px solid #000000;
+}
+
+*/
