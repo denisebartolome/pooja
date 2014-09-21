@@ -20,19 +20,22 @@ time, mark, audio, video {
 }
 
 *{
- border: 1px dotted black;
+ border: 0px dotted black;
 }
 
 body{
  margin: 0 auto;
  width: 70%;
  border: 0px solid #808080;
- font-family: Verdana, Calibri;
- background: url(halftone.png);
-
+ font-family: Droid Serif, Verdana, Calibri;
+ background: url(zwartevilt.png);
 }
 
-
+#body_center{
+background: url(halftone.png);
+border-left: 2px solid #000000;
+border-right: 2px solid #000000;
+}
 
 div{  
 display: inline-block;
@@ -60,6 +63,9 @@ vertical-align: top;
 #menu_line{
  width: 100%;
  background-color: #20ffd0;
+ opacity: 0.6;
+ filter: alpha(opacity=40);
+ border-bottom: 3px solid #33cc99;
  text-align: center;
  position: relative;
  top: -5px;
@@ -82,16 +88,12 @@ a{
  text-decoration: none;
 }
 
-/* can probably get rid of this...used to be hr
-.divider{
- display: block;
- width: 80%;
- background-color: #20ffd0;
- height: 20px;
- text-align: center;
- position: relative;
+.main_menu li a{
+	color: #000000;
+	width: 300px;
+	border-radius: 70%;
 }
-*/
+
 
 #work{
  margin-top: 100px;
@@ -123,6 +125,8 @@ div div p{
 padding: 40px;
 }
 
+/*for the section dividers*/
+
 .hr{
  width: 100%;
  background-color: #000000;
@@ -143,7 +147,6 @@ padding: 40px;
  right: 20px;
  float: right;
  border: 10px solid #000000;
- 
 }
 
 
@@ -202,4 +205,15 @@ hr:after {
  border: 10px solid #000000;
 }
 
+*/
+
+/* can probably get rid of this...used to be hr
+.divider{
+ display: block;
+ width: 80%;
+ background-color: #20ffd0;
+ height: 20px;
+ text-align: center;
+ position: relative;
+}
 */
